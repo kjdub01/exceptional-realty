@@ -26,3 +26,43 @@ figcaption {
   color: #777;
   text-align: right;
 }
+
+/* Class Selectors*/
+
+.milk-text {
+  font: bold, 2 em "Elsie Swash Caps", cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selectors*/
+
+#logo {
+  background: aqua;
+}
+
+/* Descendant Selectors */
+
+#logo h1 {
+  font-family: "Clicker Script", cursive; 
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Pseudo Selectors*/
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: nane;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red;
+}
